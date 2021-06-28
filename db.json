@@ -1,1 +1,889 @@
-[]
+
+  "adverts": [
+    {
+      "title": "1 bed room plat",
+      "slug": "1-bed-room-plat",
+      "category": 1,
+      "subcategory": 1,
+      "university": 2,
+      "campus": 1,
+      "price": "120000",
+      "tags": "Bed Room",
+      "images": [
+        "Screenshot 2021-04-13 191302 - Copy.png",
+        "Screenshot 2021-04-13 191302.png"
+      ],
+      "description": "Description for this post",
+      "id": 1
+    },
+    {
+      "title": "saeraeraw erwe",
+      "slug": " ret retetre",
+      "category": 2,
+      "subcategory": 1,
+      "university": 3,
+      "campus": 3,
+      "price": "4465",
+      "tags": "fdgf",
+      "images": [
+        "Screenshot 2021-04-13 191302.png"
+      ],
+      "description": "sewrsdsfrfrsdfds  rtet",
+      "id": 2
+    },
+    {
+      "isTrusted": true,
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "university_id": 1,
+      "slug": "Naming-House-University",
+      "title": "Naming House University",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "200000",
+      "view": "24",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 1,
+        "name": "Lodges",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 1,
+        "name": "Self Con",
+        "status": 1
+      },
+      "university": {
+        "id": 1,
+        "name": "FUTO",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 1,
+        "name": "Owerri Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Imo State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "university_id": 2,
+      "slug": "Professional-Painter",
+      "title": "Professional Painter",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "160000",
+      "view": "17",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 2,
+        "name": "Services",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "Painter",
+        "status": 1
+      },
+      "university": {
+        "id": 2,
+        "name": "UNN",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 2,
+        "name": "Nsuka Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 2,
+        "name": "Enugu State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "university_id": 3,
+      "slug": "Room-mate-Pairing",
+      "title": "Room mate Pairing",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "120000",
+      "view": "6",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 3,
+        "name": "Roomies",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 3,
+        "name": "Male",
+        "status": 1
+      },
+      "university": {
+        "id": 3,
+        "name": "UNIZIK",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 3,
+        "name": "Okwa Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 3,
+        "name": "Anambra State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "university_id": 4,
+      "slug": "Lodges-Name-2",
+      "title": "Lodges Name 2",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "180000",
+      "view": "13",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 1,
+        "name": "Lodges",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "1 Bed Room",
+        "status": 1
+      },
+      "university": {
+        "id": 1,
+        "name": "FUTO",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 1,
+        "name": "Owerri Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Imo State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category_id": 1,
+      "university_id": 1,
+      "slug": "Naming-House-University",
+      "title": "Naming House University",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "200000",
+      "view": "24",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 1,
+        "name": "Lodges",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 1,
+        "name": "Self Con",
+        "status": 1
+      },
+      "university": {
+        "id": 1,
+        "name": "FUTO",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 1,
+        "name": "Owerri Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Imo State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "university_id": 2,
+      "slug": "Professional-Painter",
+      "title": "Professional Painter",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "160000",
+      "view": "17",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 2,
+        "name": "Services",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "Painter",
+        "status": 1
+      },
+      "university": {
+        "id": 2,
+        "name": "UNN",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 2,
+        "name": "Nsuka Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 2,
+        "name": "Enugu State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "university_id": 3,
+      "slug": "Room-mate-Pairing",
+      "title": "Room mate Pairing",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "120000",
+      "view": "6",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 3,
+        "name": "Roomies",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 3,
+        "name": "Male",
+        "status": 1
+      },
+      "university": {
+        "id": 3,
+        "name": "UNIZIK",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 3,
+        "name": "Okwa Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 3,
+        "name": "Anambra State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "university_id": 4,
+      "slug": "Lodges-Name-2",
+      "title": "Lodges Name 2",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "180000",
+      "view": "13",
+      "status": 1,
+      "created_at": "3-4-2021",
+      "category": {
+        "id": 1,
+        "name": "Lodges",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "1 Bed Room",
+        "status": 1
+      },
+      "university": {
+        "id": 1,
+        "name": "FUTO",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 1,
+        "name": "Owerri Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Imo State",
+        "status": 1
+      },
+      "user": {
+        "id": 1,
+        "name": "Fidelity",
+        "phone": "08028514704",
+        "status": 1
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Lodges",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "name": "Steady Water",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "name": "Generator",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "title": "dsae",
+      "slug": "werwe ew ew",
+      "category": "Seller",
+      "subcategory": "User",
+      "university": "Seller",
+      "campus": "User",
+      "price": "3454545",
+      "tags": "reter , ere",
+      "images": [
+        "Screenshot 2021-04-13 191302.png"
+      ],
+      "descrption": "",
+      "description": "seraerw rre",
+      "id": 5
+    }
+  ],
+  "filteredPosts": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "university_id": 1,
+      "title": "Naming House University",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "200,000",
+      "status": 1,
+      "category": {
+        "id": 1,
+        "name": "Lodges",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 1,
+        "name": "Self Con",
+        "status": 1
+      },
+      "university": {
+        "id": 1,
+        "name": "FUTO",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 1,
+        "name": "Owerri Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Imo State",
+        "status": 1
+      }
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "university_id": 2,
+      "title": "Naming House University",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "200,000",
+      "status": 1,
+      "category": {
+        "id": 2,
+        "name": "Services",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "Painter",
+        "status": 1
+      },
+      "university": {
+        "id": 2,
+        "name": "UNN",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 2,
+        "name": "Nsuka Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 2,
+        "name": "Enugu State",
+        "status": 1
+      }
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "university_id": 3,
+      "title": "Naming House University",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "200,000",
+      "status": 1,
+      "category": {
+        "id": 3,
+        "name": "Roomie",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 3,
+        "name": "Male",
+        "status": 1
+      },
+      "university": {
+        "id": 3,
+        "name": "Unizik",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 3,
+        "name": "Okwa Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 3,
+        "name": "Anambra State",
+        "status": 1
+      }
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "university_id": 4,
+      "title": "Naming House University",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "price": "200,000",
+      "status": 1,
+      "category": {
+        "id": 4,
+        "name": "Lodges",
+        "icon": "flaticon-house",
+        "status": 1
+      },
+      "subcategory": {
+        "id": 4,
+        "name": "1 Bed Room",
+        "status": 1
+      },
+      "university": {
+        "id": 4,
+        "name": "FUTO",
+        "state": "Enugu State",
+        "status": 1
+      },
+      "campus": {
+        "id": 4,
+        "name": "Owerri Campus",
+        "status": 1
+      },
+      "state": {
+        "id": 4,
+        "name": "Imo State",
+        "status": 1
+      }
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "postId": 1,
+      "name": "Lodges",
+      "icon": "flaticon-house",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "name": "Services",
+      "icon": "flaticon-setting",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "name": "Roomies",
+      "icon": "flaticon-users",
+      "status": 1
+    }
+  ],
+  "subcategory": [
+    {
+      "id": 1,
+      "postId": 1,
+      "categoryId": 1,
+      "name": "Self Con",
+      "status": 1
+    },
+    {
+      "id": 1,
+      "postId": 2,
+      "categoryId": 2,
+      "name": "Painter",
+      "status": 1
+    },
+    {
+      "id": 1,
+      "postId": 3,
+      "categoryId": 3,
+      "name": "Male",
+      "status": 1
+    }
+  ],
+  "university": [
+    {
+      "id": 1,
+      "postId": 1,
+      "name": "FUTO",
+      "state": "Enugu State",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "name": "UNN",
+      "state": "Imo State",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "name": "UNIZIK",
+      "state": "Anambra State",
+      "status": 1
+    }
+  ],
+  "campus": [
+    {
+      "id": 1,
+      "postId": 1,
+      "universityId": 1,
+      "name": "Owerri Campus",
+      "Status": 1,
+      "university": {
+        "id": 1,
+        "name": "FUTO",
+        "state": "Imo State",
+        "status": 1
+      }
+    },
+    {
+      "id": 1,
+      "postId": 2,
+      "universityId": 2,
+      "name": "Nsuka Campus",
+      "Status": 1,
+      "university": {
+        "id": 2,
+        "name": "UNN",
+        "state": "Enugu State",
+        "status": 1
+      }
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "universityId": 3,
+      "name": "OKwa Campus",
+      "Status": 1,
+      "university": {
+        "id": 3,
+        "name": "UNIZIK",
+        "state": "Anambra State",
+        "status": 1
+      }
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "postId": 1,
+      "name": "Plumber",
+      "number": 3,
+      "status": 1
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "name": "Painter",
+      "number": 5,
+      "status": 1
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "name": "Lodge",
+      "number": 40,
+      "status": 1
+    }
+  ],
+  "state": [
+    {
+      "id": 1,
+      "postId": 1,
+      "name": "Imo State",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "name": "Enugu State",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "name": "Anambra State",
+      "status": 1
+    }
+  ],
+  "users": [
+    {
+      "username": "fidelity",
+      "role": "User",
+      "email": "user@gmail.com",
+      "phone": "08028514704",
+      "password": "123456",
+      "comfirm_password": "12345",
+      "id": 1
+    },
+    {
+      "username": "fidelity",
+      "role": "User",
+      "email": "user@gmail.com",
+      "phone": "08028514704",
+      "password": "12345",
+      "comfirm_password": "12345",
+      "id": 2
+    },
+    {
+      "username": "jane",
+      "role": "Seller",
+      "email": "seller@email.com",
+      "phone": "7886674567",
+      "password": "qw",
+      "comfirm_password": "qw",
+      "id": 3
+    },
+    {
+      "username": "sfdwsed",
+      "role": "Seller",
+      "email": "sew@dsf",
+      "phone": "435",
+      "password": "srdtfrt",
+      "comfirm_password": "dasaed",
+      "id": 4
+    }
+  ]
