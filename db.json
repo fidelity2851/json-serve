@@ -1,41 +1,4 @@
 {
-  "adverts": [
-    {
-      "title": "1 bed room plat",
-      "slug": "1-bed-room-plat",
-      "category": 1,
-      "subcategory": 1,
-      "university": 2,
-      "campus": 1,
-      "price": "120000",
-      "tags": "Bed Room",
-      "images": [
-        "Screenshot 2021-04-13 191302 - Copy.png",
-        "Screenshot 2021-04-13 191302.png"
-      ],
-      "description": "Description for this post",
-      "id": 1
-    },
-    {
-      "title": "saeraeraw erwe",
-      "slug": " ret retetre",
-      "category": 2,
-      "subcategory": 1,
-      "university": 3,
-      "campus": 3,
-      "price": "4465",
-      "tags": "fdgf",
-      "images": [
-        "Screenshot 2021-04-13 191302.png"
-      ],
-      "description": "sewrsdsfrfrsdfds  rtet",
-      "id": 2
-    },
-    {
-      "isTrusted": true,
-      "id": 3
-    }
-  ],
   "posts": [
     {
       "id": 1,
