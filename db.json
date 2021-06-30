@@ -1,67 +1,6 @@
 {
 "posts": [
-    {
-      "id": 1,
-      "category_id": 1,
-      "university_id": 1,
-      "slug": "Naming-House-University",
-      "title": "Naming House University",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "price": "200000",
-      "view": "24",
-      "status": 1,
-      "created_at": "3-4-2021",
-      "category": {
-        "id": 1,
-        "name": "Lodges",
-        "icon": "flaticon-house",
-        "status": 1
-      },
-      "subcategory": {
-        "id": 1,
-        "name": "Self Con",
-        "status": 1
-      },
-      "university": {
-        "id": 1,
-        "name": "FUTO",
-        "state": "Enugu State",
-        "status": 1
-      },
-      "campus": {
-        "id": 1,
-        "name": "Owerri Campus",
-        "status": 1
-      },
-      "state": {
-        "id": 1,
-        "name": "Imo State",
-        "status": 1
-      },
-      "user": {
-        "id": 1,
-        "name": "Fidelity",
-        "phone": "08028514704",
-        "status": 1
-      },
-      "tags": [
-        {
-          "id": 1,
-          "name": "Lodges",
-          "status": 1
-        },
-        {
-          "id": 2,
-          "name": "Steady Water",
-          "status": 1
-        },
-        {
-          "id": 3,
-          "name": "Generator",
-          "status": 1
-        }
-      ]
-    },
+    
   ],
   "comments": [
     {
