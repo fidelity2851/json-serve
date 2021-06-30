@@ -666,42 +666,4 @@
       "status": 1
     }
   ],
-  "users": [
-    {
-      "username": "fidelity",
-      "role": "User",
-      "email": "user@gmail.com",
-      "phone": "08028514704",
-      "password": "123456",
-      "comfirm_password": "12345",
-      "id": 1
-    },
-    {
-      "username": "fidelity",
-      "role": "User",
-      "email": "user@gmail.com",
-      "phone": "08028514704",
-      "password": "12345",
-      "comfirm_password": "12345",
-      "id": 2
-    },
-    {
-      "username": "jane",
-      "role": "Seller",
-      "email": "seller@email.com",
-      "phone": "7886674567",
-      "password": "qw",
-      "comfirm_password": "qw",
-      "id": 3
-    },
-    {
-      "username": "sfdwsed",
-      "role": "Seller",
-      "email": "sew@dsf",
-      "phone": "435",
-      "password": "srdtfrt",
-      "comfirm_password": "dasaed",
-      "id": 4
-    }
-  ]
-}
+  }
