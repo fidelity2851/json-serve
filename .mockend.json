@@ -9,6 +9,11 @@
       "price": "int",
       "view": "int",
       "status": "int",
-      "created_at": "date"
+      "created_at": "date",
+      "title": "string",
+      "views": "int",
+      "published": "boolean",
+      "createdAt": "date"
+
     }
 }
