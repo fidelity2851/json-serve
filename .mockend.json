@@ -1,14 +1,9 @@
-{ 
-"posts":{
-      "id": "int",
-      "category_id": "int",
-      "university_id": "int",
-      "slug": "string",
-      "title": "string",
-      "description": "string",
-      "price": "int",
-      "view": "int",
-      "status": "int",
-      "created_at": "date",
-    }
+
+{
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date"
+  }
 }
