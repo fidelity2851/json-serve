@@ -1,20 +1,20 @@
  "posts": [
     {
-      "id": int,
-      "category_id": int,
-      "university_id": int,
-      "slug": string,
-      "title": srting",
-      "description": string,
-      "price": int,
-      "view": int,
-      "status": int,
-      "created_at": date",
+      "id": "int",
+      "category_id": "int",
+      "university_id": "int",
+      "slug": "strint",
+      "title": "strint"",
+      "description": "strint",
+      "price": "int",
+      "view": "int",
+      "status": "int",
+      "created_at": "date",
       "category": {
-        "id": int,
-        "name": string,
-        "icon": string,
-        "status": int
+        "id": "int",
+        "name": "strint",
+        "icon": "strint",
+        "status": "int"
       },
       "subcategory": {
         "id": 1,
