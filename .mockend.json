@@ -15,5 +15,5 @@
         "name": "string",
         "icon": "string",
         "status": "int"
-      },
+      }
    ]
