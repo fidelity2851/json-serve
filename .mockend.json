@@ -1,6 +1,5 @@
 { 
-"posts": [
-    {
+"posts":{
       "id": "int",
       "category_id": "int",
       "university_id": "int",
@@ -18,5 +17,4 @@
         "status": "int"
       },
     }
-   ]
 }
