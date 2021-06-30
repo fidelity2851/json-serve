@@ -10,11 +10,5 @@
       "view": "int",
       "status": "int",
       "created_at": "date",
-      "category": {
-        "id": "int",
-        "name": "string",
-        "icon": "string",
-        "status": "int"
-      },
     }
 }
