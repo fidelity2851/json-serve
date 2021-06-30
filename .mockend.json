@@ -3,62 +3,17 @@
       "id": "int",
       "category_id": "int",
       "university_id": "int",
-      "slug": "strint",
-      "title": "strint"",
-      "description": "strint",
+      "slug": "string",
+      "title": "string"",
+      "description": "string",
       "price": "int",
       "view": "int",
       "status": "int",
       "created_at": "date",
       "category": {
         "id": "int",
-        "name": "strint",
-        "icon": "strint",
+        "name": "string",
+        "icon": "string",
         "status": "int"
       },
-      "subcategory": {
-        "id": 1,
-        "name": "Self Con",
-        "status": 1
-      },
-      "university": {
-        "id": 1,
-        "name": "FUTO",
-        "state": "Enugu State",
-        "status": 1
-      },
-      "campus": {
-        "id": 1,
-        "name": "Owerri Campus",
-        "status": 1
-      },
-      "state": {
-        "id": 1,
-        "name": "Imo State",
-        "status": 1
-      },
-      "user": {
-        "id": 1,
-        "name": "Fidelity",
-        "phone": "08028514704",
-        "status": 1
-      },
-      "tags": [
-        {
-          "id": 1,
-          "name": "Lodges",
-          "status": 1
-        },
-        {
-          "id": 2,
-          "name": "Steady Water",
-          "status": 1
-        },
-        {
-          "id": 3,
-          "name": "Generator",
-          "status": 1
-        }
-      ]
-    },
    ]
