@@ -1,20 +1,20 @@
  "posts": [
     {
-      "id": 1,
-      "category_id": 1,
-      "university_id": 1,
-      "slug": "Naming-House-University",
-      "title": "Naming House University",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "price": "200000",
-      "view": "24",
-      "status": 1,
-      "created_at": "3-4-2021",
+      "id": int,
+      "category_id": int,
+      "university_id": int,
+      "slug": string,
+      "title": srting",
+      "description": string,
+      "price": int,
+      "view": int,
+      "status": int,
+      "created_at": date",
       "category": {
-        "id": 1,
-        "name": "Lodges",
-        "icon": "flaticon-house",
-        "status": 1
+        "id": int,
+        "name": string,
+        "icon": string,
+        "status": int
       },
       "subcategory": {
         "id": 1,
