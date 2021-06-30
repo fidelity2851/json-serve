@@ -1,5 +1,5 @@
 { 
-"posts":{
+ "Posts":{
       "id": "int",
       "category_id": "int",
       "university_id": "int",
@@ -9,6 +9,6 @@
       "price": "int",
       "view": "int",
       "status": "int",
-      "created_at": "date",
+      "created_at": "date"
     }
 }
