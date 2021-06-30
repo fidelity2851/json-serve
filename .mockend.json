@@ -4,7 +4,7 @@
       "category_id": "int",
       "university_id": "int",
       "slug": "string",
-      "title": "string"",
+      "title": "string",
       "description": "string",
       "price": "int",
       "view": "int",
