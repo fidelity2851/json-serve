@@ -17,5 +17,6 @@
         "icon": "string",
         "status": "int"
       },
+    }
    ]
 }
